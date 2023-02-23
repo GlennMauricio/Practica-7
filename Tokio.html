@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Blog PQG">
+
+  <meta name="keywords" content="México,Tokyo,Londres,Paris">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria de Ciudades</title>
+
+<style>
+
+body{
+    background-image: linear-gradient(135deg,#ffffff,#9d6767,#a23232,#9b1c1c,#bf6666,#b47e7e,#a79797);
+    background-size: 500%;
+    animation: fanimado 15s infinite;
+}
+
+@keyframes fanimado{
+  0%{
+    background-position: 0% 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+div.contenedor{
+    width: 100%;
+    border: 1px solid gray;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+li{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: darkviolet;
+}
+
+article {
+    margin-left: 170px;
+    border-left: 1px solid rgb(0, 0, 0);
+    padding: 1em;
+    overflow: hidden;
+}
+
+h1,h2{
+    font-family: var(--titulos);
+}
+
+h3, p, a{
+    font-family: var(--parrafos);
+}
+
+:root{
+    --verde:#00A149;
+    --blanco:#fff;
+    --rojo:#881014;
+    --oscuro:#000;
+    --titulos:'Arima Madurai',cursive;
+    --parrafos:'Mulish', sans-serif;
+}
+
+article{
+    color: #000;
+}
+
+</style>
+</head>
+<body>
+
+<div class="contenedor">
+
+<header>
+   <h1>Galeria de Ciudades</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">M&eacute;xico</a></li>
+    <li><a href="Paris.html">Paris</a></li>
+    <li><a href="Tokio.html">Tokyo</a></li>
+    <li><a href="Londres.html">Londres</a></li>
+    <li><a href="index.html">Atras</a></li>
+   </ul>
+  </nav>
+  <section>
+  	<article>
+        <img src="Img/Tokio.jpg" height="150px" width="300px" align="left" border="10" vspace="20" hspace="10">
+
+        <h1 align="center"><span style="font-size: 30px; color: whitesmoke;"><span style="color: var(--blanco);">To</span><span style="color: var(--rojo);">k</span><span style="color:var(--blanco);">io</span></span></h1>
+  	   
+        <p>Tokio se identifica como el centro pol&iacute;tico, econ&oacute;mico y cultural de Jap&oacute;n y, en base a la subdivisi&oacute;n administrativa del territorio, se divide en 23 distritos que incluyen 26 ciudades, 5 ciudadelas y 8 aldeas.</p>
+
+        </article>
+  </section>
+  <footer>Copyright <b>Glenn Mauricio Bello Chac&oacute;n</b></footer>
+
+</div>
+
+</body>
+</html>
